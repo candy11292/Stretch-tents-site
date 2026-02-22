@@ -1,0 +1,94 @@
+/* Stretch Tents & Events Bright Theme */
+
+:root{
+  --primary:#d62828;      /* bold red */
+  --secondary:#2a9d8f;    /* teal */
+  --accent:#f4a261;       /* warm accent */
+  --light:#ffffff;
+  --dark:#222222;
+  --soft:#f7f7f7;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:var(--light);
+  color:var(--dark);
+}
+
+/* Header */
+header{
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+nav{
+  margin-top:10px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 12px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+/* Main Content */
+main{
+  max-width:1100px;
+  margin:30px auto;
+  padding:0 20px;
+}
+
+h1,h2{
+  color:var(--primary);
+}
+
+.section{
+  background:var(--soft);
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:25px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.button{
+  display:inline-block;
+  padding:12px 18px;
+  background:var(--primary);
+  color:white;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:bold;
+}
+
+.button:hover{
+  background:var(--secondary);
+}
+
+/* Images */
+img{
+  max-width:100%;
+  height:auto;
+  border-radius:15px;
+  margin-top:15px;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:25px;
+  background:#fafafa;
+  border-top:1px solid #eee;
+  margin-top:40px;
+}
